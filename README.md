@@ -6,19 +6,12 @@
         body {
             background-color: #f8eaf9; /* Light pink color */
             font-family: Arial, sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
         }
         
         .container {
             max-width: 800px;
+            margin: 0 auto;
             padding: 20px;
-            border: none; /* Remove border */
-            box-shadow: none; /* Remove box shadow */
-            position: relative;
-            background-color: transparent; /* Make the background transparent */
             text-align: center;
         }
         
@@ -51,16 +44,24 @@
         }
         
         .background-text {
-            font-size: 300px;
+            font-size: 60px;
             color: #ff4d88; /* Pink color */
             opacity: 0.1;
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            z-index: -1;
             pointer-events: none; /* Ignore mouse events on the background text */
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 30px;
+            }
+            
+            p {
+                font-size: 16px;
+            }
+            
+            .background-text {
+                font-size: 40px;
+            }
         }
     </style>
 </head>
@@ -70,7 +71,7 @@
         <p>
            ميرو الهبله :
             <br><br>
-            متزعليش من ي صغننه ي غبيه انا عارف ان تصرفاتي غبيه شبهك بس اسف يسطا متزعليش مني والحاجات اللي بقولها كل خناقه اللي انتي حفظاها دي .
+            متزعليش مني ي صغننه ي غبيه انا عارف ان تصرفاتي غبيه شبهك بس اسف يسطا متزعليش مني والحاجات اللي بقولها كل خناقه اللي انتي حفظاها دي .
             <br><br>
             انا عملت الموقع دا كا رمز لحبي وهديه وكده حاجه تفضل معاكي كل خناقه تفتكريها .
             <br><br>
